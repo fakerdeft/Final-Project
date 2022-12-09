@@ -16,7 +16,8 @@ public class MemberController {
 	public String signup() {
 		
 		System.out.println("signup 컨트롤단");
-		
+
+
 		return "/member/signup";
 	}
 	
