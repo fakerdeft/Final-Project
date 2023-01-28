@@ -14,7 +14,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>error | 에러 페이지 |</title>
+<title>error401 | 에러 페이지 |</title>
 
 <!-- 인터넷 -->
 <link rel="stylesheet" type="text/css" href="./resources/sejongpac/static/portal/css/aos.css">
@@ -41,7 +41,7 @@
 
 </head>
 <body class="hide-focus-ring">
-	
+
 	<c:if test="${not empty errorMsg}">
 		<script type="text/javascript">
 			alert("${errorMsg}");
@@ -54,7 +54,7 @@
 			<%session.removeAttribute("alertMsg"); %>
 		</script>
 	</c:if>
-
+	
 	<section id="wrap">
 		<!-- Header Section Begin -->
 		<jsp:include page="../common/header.jsp" />
@@ -111,12 +111,12 @@
 					<article class="ticket_com inner">
 						<ul>
 							<li class="group">
-								<div class="tit">${errorMsg}</div>
+								<div class="tit">401 Not Found</div>
 								<div class="cont">
 									<dl class="t1">
-										<dt>요청하신 페이지를 처리중에 오류가 발생했습니다.</dt>
-										<dd>서비스 이용에 불편을 드려 죄송합니다.</dd>
-										<dd>다시 시도해 주시기 바랍니다.</dd>
+										<dt>페이지를 찾을 수 없습니다.</dt>
+										<dd>페이지가 존재하지 않거나 사용 할 수 없는 페이지입니다.</dd>
+										<dd>입력하신 주소가  정확한지 다시 한번 확인해 주시기 바랍니다.</dd>
 									</dl>
 								</div>
 							</li>

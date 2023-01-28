@@ -14,7 +14,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>error | 에러 페이지 |</title>
+<title>error500 | 에러 페이지 |</title>
 
 <!-- 인터넷 -->
 <link rel="stylesheet" type="text/css" href="./resources/sejongpac/static/portal/css/aos.css">
@@ -111,12 +111,13 @@
 					<article class="ticket_com inner">
 						<ul>
 							<li class="group">
-								<div class="tit">${errorMsg}</div>
+								<div class="tit">500 Not Found</div>
 								<div class="cont">
 									<dl class="t1">
-										<dt>요청하신 페이지를 처리중에 오류가 발생했습니다.</dt>
-										<dd>서비스 이용에 불편을 드려 죄송합니다.</dd>
-										<dd>다시 시도해 주시기 바랍니다.</dd>
+										<dt>잠시 후 다시 확인해 주세요!</dt>
+										<dd>지금 이 서비스와 연결 할 수 없습니다.</dd>
+										<dd>문제를 해결하기 위해 열심히 노력하고 있습니다.</dd>
+										<dd>잠시 후 다시 확인해 주세요.</dd>
 									</dl>
 								</div>
 							</li>
